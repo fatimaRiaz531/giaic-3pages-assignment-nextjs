@@ -1,0 +1,15 @@
+/* pages.module.css */
+
+/* import styles from './page.module.css'; */
+.homeContainer {
+    /* Add your desired styles here, such as: */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .homeHeading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }

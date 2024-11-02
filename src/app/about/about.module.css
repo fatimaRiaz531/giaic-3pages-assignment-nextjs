@@ -1,0 +1,11 @@
+/* about.module.css */
+.aboutLink {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .aboutParagraph {
+    text-align: center;
+    color: red;
+  }

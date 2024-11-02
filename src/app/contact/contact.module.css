@@ -1,0 +1,50 @@
+/* contact/contact.module.css */
+.contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex; /* Center the form horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Align form elements horizontally */
+  }
+  
+  .contactForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .contactForm textarea {
+    height: 100px; /* Adjust textarea height as needed */
+  }
+  
+  .contactForm button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Customize button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .contactForm button:hover {
+    background-color: #3e8e41; /* Add hover effect */
+  }
